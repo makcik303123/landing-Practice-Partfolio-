@@ -1,4 +1,6 @@
-import "./styles/style.css";
-import "./scripts/someScript";
+import Post from './Post'
+import './styles/style.css'
 
-console.log("hello I'm index.js");
+const post = new Post("Webpack Post Title");
+
+console.log("Post to String", post.toString())
