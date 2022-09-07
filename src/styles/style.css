@@ -1,9 +1,9 @@
 @import url("fonts.css");
 @import url("./global.css");
 
-.header {
+/* .header {
   background: linear-gradient(#ffffff, #ecb22e);
-}
+} */
 .container {
   /* background-color: linear gradient (#ECB22E, #FFFFFF); */
   width: 100%;
