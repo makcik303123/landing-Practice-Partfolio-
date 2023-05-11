@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins&display=swap");
-
+@import url("fonts.css");
 @import url("./global.css");
 
-.header {
+/* .header {
   background: linear-gradient(#ffffff, #ecb22e);
-}
+} */
 .container {
   /* background-color: linear gradient (#ECB22E, #FFFFFF); */
   width: 100%;
@@ -45,7 +44,6 @@ a:hover {
 .btn_nav {
   margin-left: auto;
   text-decoration: none;
-
   color: azure;
   background-color: #fcc028;
   padding: 10px 30px;

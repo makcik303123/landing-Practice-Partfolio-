@@ -1,0 +1,452 @@
+@import url("fonts.css");
+@import url("./global.css");
+
+// переменные
+
+$color_y: #fcc028;
+$color_b: rgb(195, 231, 231);
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(236, 178, 46, 0.0754) 0%,
+    rgba(255, 255, 255, 0.1144) 100%
+  );
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.header {
+  .nav {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    .name {
+      font-family: Imperial Script;
+      margin-right: 242px;
+      font-size: 32px;
+      text-decoration: none;
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      li {
+        display: block;
+        margin-right: 13px;
+        text-transform: uppercase;
+        a {
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .btn_nav {
+      margin-left: auto;
+      text-decoration: none;
+      color: azure;
+      background-color: $color_y;
+      padding: 10px 30px;
+      border-radius: 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.instagramPost {
+  top: 40px;
+  box-shadow: 0px 10px 54px rgba(19, 23, 61, 0.1);
+  border-radius: 20px;
+  position: relative;
+  width: 387px;
+  left: -70px;
+  .instagramPost__upper {
+    padding: 14px 0px 0px 18px;
+    align-items: center;
+
+    display: flex;
+    .instagramPost__photo {
+      margin-right: 8px;
+      border-radius: 100%;
+    }
+    .instagramPost__name__data {
+      color: #00000080;
+      font-size: 9.78px;
+      line-height: 14.68px;
+    }
+    .instagramPost__name {
+      font-size: 11.18px;
+      line-height: 16.77px;
+    }
+  }
+  .instagramPost__text {
+    padding: 12px 26.5px 21px;
+    font-size: 9.78px;
+    color: #000000b2;
+    line-height: 14.68px;
+  }
+}
+
+.about {
+  display: flex;
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 130px;
+    .start {
+      font-size: 18px;
+      color: $color_y;
+      padding-top: 143px;
+    }
+    h1 {
+      font-size: 72.72px;
+    }
+    h2 {
+      margin: 7px 0;
+      font-size: 24px;
+      color: green;
+    }
+    .buttons {
+      padding-top: 46px;
+      display: flex;
+      align-items: center;
+      .btn_about {
+        text-decoration: none;
+        color: azure;
+        background-color: #fcc028;
+        padding: 10px 30px;
+        border-radius: 5px;
+        gap: 10px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .download {
+        padding: 0 22px;
+      }
+    }
+  }
+}
+
+.fullrost {
+  padding: 100px;
+}
+.advantage {
+  padding: 30px 0;
+  display: flex;
+}
+.yellow {
+  color: #ecb22e;
+}
+.strochka2 {
+  display: flex;
+}
+.medal {
+  &:hover {
+    width: 100px;
+    height: 100px;
+    fill: $color_y;
+  }
+}
+.podpis {
+  margin-right: 60px;
+  padding: 2px 10px;
+}
+.otstup {
+  padding-left: 60px;
+}
+
+.nameBlock3 {
+  padding-top: 80px;
+  text-align: center;
+  color: $color_y;
+  text-transform: uppercase;
+}
+.checkMY {
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-align: center;
+}
+.exploreBtn {
+  cursor: pointer;
+  margin-right: 60px;
+  color: #ecb22e;
+  text-align: end;
+  font-weight: 600;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.bloks {
+  display: flex;
+  justify-content: center;
+  .colomn {
+    margin: 19.47px;
+    .colomn__title {
+      font-weight: 600;
+      font-size: 19.47px;
+      text-align: center;
+    }
+    .colomn__text {
+      font-size: 14.6px;
+      text-align: center;
+      width: 359px;
+    }
+  }
+}
+
+.fullBlock {
+  margin: 35px 0px;
+  display: flex;
+  align-items: center;
+  .halfBlock {
+    margin-left: 40px;
+    .halfBlock__number {
+      color: $color_y;
+      font-size: 31.16px;
+    }
+    .halfBlock__title {
+      margin: 15px 0px;
+      font-weight: 600;
+      font-size: 23.37px;
+    }
+    .halfBlock__text {
+      font-size: 17.52px;
+    }
+    .halfBlock__btn {
+      margin: 30px 0px;
+      .halfBlock__btn_button {
+        color: $color_y;
+        padding: 10px 29.2083px;
+        gap: 10px;
+        border: 1px solid $color_y;
+        border-radius: 9.73611px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.btnAfterFullBlock {
+  padding-top: 50px;
+  text-align: center;
+  .btnAfterFullBlock_hireMe {
+    color: azure;
+    padding: 9.73611px 29.2083px;
+    gap: 9.74px;
+    border-style: none;
+    background: $color_y;
+    border-radius: 4.86806px;
+    cursor: pointer;
+    width: 152.86px;
+  }
+}
+
+.partfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partfolioImages {
+  padding: 10px;
+}
+.logo {
+  display: flex;
+}
+.sponsorLogo {
+  display: block;
+  margin: auto;
+}
+
+$widthMainSlide: 790px;
+
+.slider {
+  position: relative;
+
+  .slide {
+    width: $widthMainSlide;
+    height: 215px;
+    transition: 0.4s all;
+    text-align: center;
+
+    &.inactive {
+      opacity: 0.75;
+      border-radius: 10px;
+      top: 0px;
+      background: whitesmoke;
+      transform: translateX(-50%) scale(0.9);
+      left: 20%;
+      position: absolute;
+      transition: 0.4s ease-in-out;
+    }
+
+    &.active {
+      opacity: 1;
+      z-index: 1;
+      top: 40px;
+      transform: translateX(-50%) scale(1);
+      left: 60%;
+      box-shadow: 0px 4px 20px rgba(19, 23, 61, 0.1);
+      border-radius: 20px;
+      position: relative;
+      background: gold;
+    }
+  }
+
+  .slidePhoto {
+    left: calc($widthMainSlide / 2 - 50px);
+    position: absolute;
+    top: -44px;
+    text-align: center;
+    img {
+      border-radius: 100px;
+    }
+  }
+
+  .slideText {
+    padding: 87px 134px 32px;
+    opacity: 0.7;
+    font-size: 14px;
+  }
+
+  .slideAutor {
+    .name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .position {
+      opacity: 0.7;
+      font-size: 13px;
+    }
+  }
+
+  .virguleUp {
+    top: 17.5px;
+    left: 53.5px;
+    position: absolute;
+  }
+
+  .virguleDown {
+    bottom: 17.5px;
+    right: 53.5px;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+
+  .swiper {
+    top: 140px;
+    left: 227px;
+    z-index: 10;
+    position: absolute;
+    width: 212px;
+    height: 90px;
+    border-radius: 10px;
+    background: $color_y;
+    .arrowLeft {
+      position: absolute;
+      transform: rotate(180deg);
+      left: 17px;
+      top: 38px;
+      cursor: pointer;
+    }
+    .arrowRight {
+      position: absolute;
+      right: 17px;
+      top: 38px;
+      cursor: pointer;
+    }
+  }
+  .yellowBlock {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+.contact {
+  padding-top: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 178, 46, 0.0754) 0%,
+    rgba(255, 255, 255, 0.1144) 100%
+  );
+
+  .forms {
+    align-items: center;
+    display: flex;
+    .leftSide {
+      h6 {
+        opacity: 0.7;
+      }
+      h1 {
+        font-size: 32px;
+        line-height: 47px;
+      }
+      p {
+        font-weight: 100;
+        padding-bottom: 50px;
+        margin-right: 50px;
+      }
+      div {
+        display: flex;
+        position: relative;
+        padding-bottom: 18px;
+        svg {
+          position: absolute;
+          left: -50px;
+        }
+      }
+    }
+
+    ul {
+      text-decoration: none;
+
+      li {
+        padding-bottom: 19px;
+      }
+      input {
+        border: 0px;
+        padding: 28px 35px;
+        font-size: 16px;
+        width: 523px;
+        border-radius: 10px;
+      }
+      textarea {
+        width: 523px;
+        height: 320px;
+        border: 0px;
+        padding: 28px 35px;
+        font-size: 16px;
+        border-radius: 10px;
+        resize: none;
+      }
+
+      //   .inputs__Message {
+      //     padding-bottom: 265px;
+      //   }
+    }
+  }
+}
+
+.btn__Submit {
+  width: 152.86px;
+  height: 53.55px;
+  background: $color_y;
+  border-radius: 5px;
+  border: solid 1px white;
+  color: #ffffff;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    transition: 0.2s opacity ease-in-out;
+    opacity: 0.5;
+  }
+}
