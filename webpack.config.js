@@ -86,6 +86,11 @@ module.exports = (env, argv) => {
   });
 
   rules.push({
+    test: /\.s[ac]ss$/i,
+    use: ["style-loader", "css-loader", "sass-loader"],
+  });
+
+  rules.push({
     test: /\.(png|svg|jpg|jpeg|gif)$/i,
   });
 
